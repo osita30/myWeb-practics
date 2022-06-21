@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)), url(osita1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.nav{
+width:1200px;
+height: 75px;
+margin: auto;
+}
+.icon{
+    width:299px;
+    height: 70px;
+    float:left;  
+}
+.logo{
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+    padding: 10px;
+    float:left;
+    padding-top: 10px;
+}
+.menu{
+    width:400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    display: flex;
+    
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+
+}
+ul li a:hover{
+    color:royalblue;
+    transition: .5s ease-in-out;
+}
+.search{
+    width: 330px;
+    float: left;
+   margin-left: 170px;
+    
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    float:left;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 60px;
+    color:#fff;
+    border:1px solid rgb(45, 69, 187);
+    border-radius: 5px;
+}
+.btn{
+    width:100px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 13px; 
+    border-radius: 5px;
+    border: 2px solid rgb(83, 60, 185);
+} 
+.btn:focus{
+    outline:none;
+
+}
+.srch:focus{
+outline:none;
+}
+.design{
+    width:1200px;
+    height: auto;
+    margin: out;
+    color:#fff;
+    position: relative;
+}
+.design h1{
+    margin-top: 50px;
+    padding-left: 20px;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    letter-spacing: 2px;
+
+}
+.design .jbtn{
+  font-size: 20px;
+   margin-left: 20px;
+   border-radius: 10px;
+   margin-top: 40px;
+   border:none;
+   height:40px;
+   width:160px;
+   background:blue;
+   cursor: pointer;
+}
+
+.design .jbtn a{
+    text-decoration: none;
+    color:black;
+    transition: .3s;
+}
+.jbtn a:hover{
+    color:red;
+    transition: .2 s ease-in-out;
+}
+.form{
+    width: 250px;
+    height:380px;
+    background: linear-gradient(to top, rgba(0,0,0,.8)50%,rgba(0,0,0,.8)50%);
+    position: absolute;
+    top:-20px;
+    left:1000px;
+    padding: 25px;
+}
+.form h1{
+    margin-top: -5px;
+    margin-left: -25px;
+    width:220px;
+    font-size:40px;
+    border-radius: 10px;  
+    
+}
+.form input{
+    width:240px;
+    height: 24px;
+    background: transparent;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    color:#fff;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px; 
+}
+.btn1{
+    background:green;
+    border-radius: 10px;
+    width:240px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:sans-serif;
+    border:none;
+    transition: .4s;
+       
+
+}
+
+.btn1:hover{
+    background:hsl(240, 100%, 50%);
+}
+.btn1 a{
+    text-decoration: none; 
+    color: black ;
+    font-weight: bold;
+}
+.form .p1{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color:blue
+}
+.p1 a{
+    margin-top: 20px;
+    text-decoration: none;
+    color:aqua
+    
+}
+.p2 a {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    color: blue;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+
+
+}
